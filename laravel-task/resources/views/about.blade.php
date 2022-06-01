@@ -7,6 +7,8 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4a27207296.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
@@ -43,7 +45,7 @@
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
+  background-color: #141720;
   color: white;
 }
 
@@ -80,19 +82,51 @@
         </style>
     </head>
     <body class="antialiased">
+    <nav class="navbar navbar-expand-lg  bg-success">
+        <a class="navbar-brand" href="#">SWEET shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+
+    </nav>
+    
     <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <h1>About Us </h1>
+  <p>SWEET shop.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam excepturi adipisci dolorem, eos maiores, dolore quas praesentium eum dicta repellendus molestias laborum magnam fugit cupiditate eius totam consequuntur alias. Dolore!</p>
 </div>
 
 <h2 style="text-align:center">Our Team</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="https://cdn-icons-png.flaticon.com/512/146/146025.png" alt="Jane" style="width:79%">
       <div class="container">
-        <h2>Jane Doe</h2>
+        <h2>Marwa Nseerat</h2>
         <p class="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>jane@example.com</p>
@@ -103,12 +137,12 @@
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <img src="https://cdn-icons-png.flaticon.com/512/146/146025.png" alt="Mike" style="width:79%">
       <div class="container">
-        <h2>Mike Ross</h2>
+        <h2>Dua sfasfeh</h2>
         <p class="title">Art Director</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
+        <p>Dua@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -116,16 +150,99 @@
   
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <img src="https://cdn-icons-png.flaticon.com/512/146/146025.png" alt="John" style="width:79%">
       <div class="container">
-        <h2>John Doe</h2>
+        <h2>Taeba Shlouh </h2>
         <p class="title">Designer</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <p>Taeba@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
 </div>
+<div class="column">
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/219/219986.png" alt="John" style="width:79%">
+      <div class="container">
+        <h2>Anas Allawafeh</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Anas@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <footer class="bg-light text-center text-white">
+  
+  <div class="container p-4 pb-0">
+    
+    <section class="mb-4">
+    
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    
+  </div>
+ 
+
+  
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div> -->
+  <!-- Copyright -->
+<!-- </footer> -->
     </body>
 </html>
