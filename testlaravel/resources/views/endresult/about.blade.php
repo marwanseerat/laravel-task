@@ -1,5 +1,5 @@
 @extends('endresult.master')
-
+@section('title','About us')
 @section('XXXx')
 <h1>
         Hi  This is About page

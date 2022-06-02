@@ -1,5 +1,5 @@
 @extends('endresult.master')
-
+@section('title','Contact us')
 @section('XXXx')
 <br>
 <form>
